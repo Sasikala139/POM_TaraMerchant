@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FlipKart Project" duration-ms="50120" started-at="2016-07-01T15:54:53Z" finished-at="2016-07-01T15:55:43Z">
+    <groups>
+    </groups>
+    <test name="Find Right Mobile Test" duration-ms="33526" started-at="2016-07-01T15:54:53Z" finished-at="2016-07-01T15:55:27Z">
+      <class name="com.qtpselenium.pom.flipkart.FindRightMobileTest">
+        <test-method status="PASS" signature="findRightMobileTest(java.util.Hashtable)[pri:0, instance:com.qtpselenium.pom.flipkart.FindRightMobileTest@5542c4ed]" name="findRightMobileTest" duration-ms="32494" started-at="2016-07-01T21:24:53Z" data-provider="getData" finished-at="2016-07-01T21:25:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Pricing=Rs. 5001 - Rs. 10000|Rs. 2001 - Rs. 5000, Size=, Mobile=Micromax Bolt A24, Brand=Micromax, Runmode=Y, OS=Android|Bada}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findRightMobileTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qtpselenium.pom.flipkart.FindRightMobileTest@5542c4ed]" name="quit" is-config="true" duration-ms="970" started-at="2016-07-01T21:25:26Z" finished-at="2016-07-01T21:25:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="SKIP" signature="findRightMobileTest(java.util.Hashtable)[pri:0, instance:com.qtpselenium.pom.flipkart.FindRightMobileTest@5542c4ed]" name="findRightMobileTest" duration-ms="1" started-at="2016-07-01T21:25:27Z" data-provider="getData" finished-at="2016-07-01T21:25:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Pricing=Rs. 5001 - Rs. 10000, Size=, Mobile=vas, Brand=LG, Runmode=N, OS=Android}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as Runmode was NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as Runmode was NO
+	at com.qtpselenium.pom.flipkart.FindRightMobileTest.findRightMobileTest(FindRightMobileTest.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findRightMobileTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qtpselenium.pom.flipkart.FindRightMobileTest@5542c4ed]" name="quit" is-config="true" duration-ms="44" started-at="2016-07-01T21:25:27Z" finished-at="2016-07-01T21:25:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.qtpselenium.pom.flipkart.FindRightMobileTest -->
+    </test> <!-- Find Right Mobile Test -->
+    <test name="Side Menu Test" duration-ms="16551" started-at="2016-07-01T15:55:27Z" finished-at="2016-07-01T15:55:43Z">
+      <class name="com.qtpselenium.pom.flipkart.SideBarMenuTest">
+        <test-method status="FAIL" signature="sideBarMenuTest()[pri:0, instance:com.qtpselenium.pom.flipkart.SideBarMenuTest@279fedbd]" name="sideBarMenuTest" duration-ms="15794" started-at="2016-07-01T21:25:27Z" finished-at="2016-07-01T21:25:42Z">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[org.apache.xerces.dom.DeferredTextImpl cannot be cast to org.w3c.dom.Element]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: org.apache.xerces.dom.DeferredTextImpl cannot be cast to org.w3c.dom.Element
+	at com.qtpselenium.pom.flipkart.pages.base.BasePage.verifyChildValues(BasePage.java:130)
+	at com.qtpselenium.pom.flipkart.pages.base.BasePage.verifyChildValues(BasePage.java:153)
+	at com.qtpselenium.pom.flipkart.SideBarMenuTest.sideBarMenuTest(SideBarMenuTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sideBarMenuTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qtpselenium.pom.flipkart.SideBarMenuTest@279fedbd]" name="quit" is-config="true" duration-ms="755" started-at="2016-07-01T21:25:42Z" finished-at="2016-07-01T21:25:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.qtpselenium.pom.flipkart.SideBarMenuTest -->
+    </test> <!-- Side Menu Test -->
+    <test name="Apply Filter Test" duration-ms="28" started-at="2016-07-01T15:55:43Z" finished-at="2016-07-01T15:55:43Z">
+      <class name="com.qtpselenium.pom.flipkart.ApplyFilterTest">
+        <test-method status="PASS" signature="applyFilterTest()[pri:0, instance:com.qtpselenium.pom.flipkart.ApplyFilterTest@bccb269]" name="applyFilterTest" duration-ms="1" started-at="2016-07-01T21:25:43Z" finished-at="2016-07-01T21:25:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyFilterTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qtpselenium.pom.flipkart.ApplyFilterTest@bccb269]" name="quit" is-config="true" duration-ms="27" started-at="2016-07-01T21:25:43Z" finished-at="2016-07-01T21:25:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.qtpselenium.pom.flipkart.ApplyFilterTest -->
+    </test> <!-- Apply Filter Test -->
+  </suite> <!-- FlipKart Project -->
+</testng-results>

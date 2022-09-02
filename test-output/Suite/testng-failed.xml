@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="Priority1Test(failed)">
+    <classes>
+      <class name="com.pom.TaraMerchant.Onboarding_Test">
+        <methods>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.pom.TaraMerchant.Onboarding_Test -->
+      <class name="com.pom.TaraMerchant.AddProduct_Test">
+        <methods>
+          <include name="DeleteProduct"/>
+          <include name="UploadCSV"/>
+          <include name="AddProductWithoutName"/>
+          <include name="AddproductmoreDiscountthanprice"/>
+          <include name="EditProduct"/>
+          <include name="AddProduct"/>
+        </methods>
+      </class> <!-- com.pom.TaraMerchant.AddProduct_Test -->
+    </classes>
+  </test> <!-- Priority1Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
