@@ -1,0 +1,23 @@
+<suite name="FlipKart Project">
+	
+	
+	<test name="Find Right Mobile Test" allow-return-values="true">
+		<classes>
+			<class name="com.qtpselenium.pom.flipkart.FindRightMobileTest" />
+		</classes>
+	</test>
+	
+	<test name="Side Menu Test" allow-return-values="true">
+		<classes>
+			<class name="com.qtpselenium.pom.flipkart.SideBarMenuTest" />
+		</classes>
+	</test>
+	
+	<test name="Apply Filter Test" allow-return-values="true">
+		<classes>
+			<class name="com.qtpselenium.pom.flipkart.ApplyFilterTest" />
+		</classes>
+	</test>
+	
+</suite>
+
