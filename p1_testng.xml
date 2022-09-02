@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Priority1Test">
+    <classes>
+      <class name="com.pom.TaraMerchant.Onboarding_Test"/>
+      <class name="com.pom.TaraMerchant.Logout_Test"/>
+      <class name="com.pom.TaraMerchant.ChangeLanguage_Test"/>
+      <class name="com.pom.TaraMerchant.AddProduct_Test"/>
+            
+    </classes>
+  </test> <!-- Priority1Test -->
+</suite> <!-- Suite -->
